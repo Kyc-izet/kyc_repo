@@ -41,9 +41,9 @@
 
 .form_8 {
   background-color: #F7FAF9;
-  gap: 1.2vw;
+  gap: 1rem;
   /* width: 25%; */
-  padding-bottom: 2vw;
+  padding: 2rem 0;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 2vw;
 }

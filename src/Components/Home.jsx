@@ -14,6 +14,7 @@ export default function Home() {
         <div className="section_1 flex_1">
           <div className="content_1 flex_1 col_1 left_align_1">
             <div className="heading_1 flex_1 col_1 left_align_1">
+              <h1 className='hide'>COLLEGE ADMISSION MADE <span className='span_1'>EASY</span></h1>
               <h1 className='h_1'>COLLEGE</h1>
               <h1 className='h_1'>ADMISSION</h1>
               <h1 className='h_1'>MADE <span className='span_1'>EASY</span></h1>
@@ -27,10 +28,11 @@ export default function Home() {
         </div>
         <div className="section_3 flex_1">
           <div className="queries flex_1 col_1">
-            <h1 className='h_1'>Get your queries</h1>
-            <h1 className='h_1'><span className='span_1'>cleared directly</span></h1>
-            <h1 className='h_1'>from your <span className='span_1'>college</span></h1>
-            <h1 className='h_1'><span className='span_1'>seniors</span></h1>
+            <div className="hide size">Get your queries <span className='span_1'>cleared directly</span> from your <span className='span_1'>college seniors</span></div>
+            <h1 className='h_2'>Get your queries</h1>
+            <h1 className='h_2'><span className='span_1'>cleared directly</span></h1>
+            <h1 className='h_2'>from your <span className='span_1'>college</span></h1>
+            <h1 className='h_2'><span className='span_1'>seniors</span></h1>
             <a className='askBtn' href="/">Ask Here</a>
           </div>
           <div className="img_2">
