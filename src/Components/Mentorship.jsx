@@ -4,6 +4,7 @@ import img1 from '../Components/mentorship.jpg'
 import img2 from '../Components/building.jpg'
 import img3 from '../Components/interaction.png'
 import img4 from '../Components/update.png'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 export default function Mentorship() {
     return (
         <div className='mentorship flex_4 col_4'>
@@ -36,7 +37,7 @@ export default function Mentorship() {
                 </ul>
             </div>
             <div className="enroll_now">
-                <button>ENROLL NOW</button>
+                <Link to="/form"><button>ENROLL NOW</button></Link>
             </div>
         </div>
     )

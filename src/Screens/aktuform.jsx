@@ -57,38 +57,38 @@ export function Desktop() {
             <div className="uptac-aktu">UPTAC/AKTU</div>
           </div>
           <div className="frame-8">
-          <p className="category">
-  <span className="text-wrapper-20">CATEGORY</span>
-</p>
-<div className="rectangle-6">
-  <select
-    className="rectangle-6-select"
-  >
-    <option value="" disabled selected hidden>Select a category</option>
-    <option value="option1">Option 1</option>
-    <option value="option2">Option 2</option>
-  </select>
-</div>
-  </div>
-  <div className="preferred-state">PREFERRED STATE</div>
-<div className="rectangle-7">
-  <select
-    className="rectangle-7-select"
-  >
-    <option value="" disabled selected hidden>Select a preferred state</option>
-    <option value="state1">State 1</option>
-    <option value="state2">State 2</option>
-  </select>
-</div>
+            <p className="category">
+              <span className="text-wrapper-20">CATEGORY</span>
+            </p>
+            <div className="rectangle-6">
+              <select
+                className="rectangle-6-select"
+              >
+                <option value="" disabled selected hidden>Select a category</option>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+              </select>
+            </div>
+          </div>
+          <div className="preferred-state">PREFERRED STATE</div>
+          <div className="rectangle-7">
+            <select
+              className="rectangle-7-select"
+            >
+              <option value="" disabled selected hidden>Select a preferred state</option>
+              <option value="state1">State 1</option>
+              <option value="state2">State 2</option>
+            </select>
+          </div>
 
-  <div className="text-wrapper-9">FULL NAME</div>
-  <div className="text-wrapper-10">
-    <input
-      type="text"
-      className="text-wrapper-10-input"
-      placeholder="Enter your full name"
-    />
-  </div>
+          <div className="text-wrapper-9">FULL NAME</div>
+          <div className="text-wrapper-10">
+            <input
+              type="text"
+              className="text-wrapper-10-input"
+              placeholder="Enter your full name"
+            />
+          </div>
 
         </div>
       </div>

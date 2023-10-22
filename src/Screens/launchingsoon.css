@@ -16,7 +16,7 @@
   color: limegreen;
 }
 
-@media (max-width:430px){
+@media (max-width:780px){
   .image-container h1{
     font-size: 2rem;
   }

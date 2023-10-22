@@ -85,13 +85,14 @@ export default function Contactme() {
           />
           <input
             type="number"
-            placeholder="mobileno."
+            placeholder="mobile Number"
             value={mobileno}
             onChange={(e) => setMobileno(e.target.value)}
           />
           <select className="select">
+            <option disabled selected hidden value="actual value 1">Current Status</option>
             <option value="actual value 1">In 12th</option>
-            <option value="actual value 2">Pass Out</option>
+            <option value="actual value 2">Dropper</option>
           </select>
           <input type="submit" value="Submit" onClick={submit} />
         </div>

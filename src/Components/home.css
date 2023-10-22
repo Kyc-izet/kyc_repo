@@ -70,6 +70,8 @@
     outline: 0;
     border: 0;
     padding: .5rem 1rem;
+    text-decoration: none;
+    color: #011f2b;
 }
 
 .getstarted:hover {
@@ -209,9 +211,12 @@ h2 {
         display: none;
     }
     .hide{
+        margin-top: 1rem;
+        text-align: center;
         display: block;
-        font-size: 4vw;
+        font-size: 6vw;
         font-weight: 800;
+        text-wrap: wrap;
     }
     .getstarted{
         font-size: 1rem;

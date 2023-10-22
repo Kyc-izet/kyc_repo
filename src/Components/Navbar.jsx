@@ -31,9 +31,9 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/collegepredictor" className="nav-link">
+            <a href='/#news' className="nav-link">
               News
-            </Link>
+            </a>
           </li>
           <li>
             <Link to="/Launchingsoon" className="nav-link">

@@ -15,7 +15,7 @@ import Abots from './Screens/Abots';
 import Flag from './Screens/contactus'
 import Contactme from './Screens/contactus';
 import Launch from './Screens/launchingsoon';
-import { Form } from './Screens/form';
+import Form from './Screens/aktuform';
 import Personalmentor from './Screens/Personalmentor';
 
 function App() {
