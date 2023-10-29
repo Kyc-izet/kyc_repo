@@ -20,7 +20,7 @@
     top: 2rem;
 }
 
-.image_ img {
+.aImage {
     max-width: fit-content;
     width: 15vw;
     /* height: 15vw; */
@@ -48,7 +48,7 @@
 
 .middle_ {
     gap: 0.7vw;
-    width: 60vw;
+    width: 50vw;
 }
 
 .navbar_ {
@@ -120,7 +120,7 @@
     text-decoration: none;
 }
 
-.social-icons a{
+.social-icons a {
     font-size: 1.5vw;
     color: white;
 }
@@ -136,8 +136,13 @@
     align-items: center;
     justify-content: center;
 }
-.contact-info img{
+
+.contact-info img {
     width: 5vw;
+}
+
+.aShow{
+    display: none;
 }
 
 @media (max-width:650px) {
@@ -194,12 +199,56 @@
     gap: 2vw;
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
     .contact-info {
         font-size: .5rem;
     }
-    .contact-info img{
+
+    .contact-info img {
         display: none;
     }
-    
+
+}
+
+@media(max-width:500px){
+    .aHide{
+        display: none;
+    }
+    .aShow{
+        display: block;
+    }
+    .aFoot{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    .aList{
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+    }
+    .assistance{
+        text-align: center;
+        padding: 1.3rem;
+        letter-spacing: 2px
+    }
+    .alinks{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .aImage{
+        display: flex;
+        color: white;
+        width: 100vw;
+        align-items: center;
+    }
+    .aImage img {
+        width: 5rem;
+    }
+    .aImage p{
+        font-size: 1rem;
+    }
 }
