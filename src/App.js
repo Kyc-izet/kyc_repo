@@ -17,6 +17,8 @@ import Contactme from './Screens/contactus';
 import Launch from './Screens/launchingsoon';
 import Form from './Screens/aktuform';
 import Personalmentor from './Screens/Personalmentor';
+import Community from './Components/Community';
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route path='/community' component={Community} />
           <Route path="/about" component={Abots} />
           <Route path='/contact' component={Contact} />
           <Route path='/collegepredictor' component={Collegepredictor} />

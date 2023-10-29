@@ -7,7 +7,7 @@ import Footer from "../Components/Footer";
 function About() {
   return (
     <div className="lab">
-      <p className="heading-works" style={{ fontWeight: 'bold', fontSize: '1.5rem', padding: '0 2rem' }}>TOP B.TECH COLLEGES OF INDIA</p>
+      <p className="heading-works size" style={{ fontWeight: 'bold', fontSize: '1.5rem', padding: '0 2rem' }}>TOP B.TECH COLLEGES OF INDIA</p>
       <br></br>
       <div className="frame">
         <div className="div">
@@ -30,7 +30,7 @@ function About() {
         </div>
       </div>
 
-      <p className="images" style={{ fontWeight: 'bold', fontSize: '1.5rem', padding: '0 2rem' }}><br></br>TOP ENGINEERING COLLEGES OF UTTAR PRADESH</p>
+      <p className="images size" style={{ fontWeight: 'bold', fontSize: '1.5rem', padding: '0 2rem' }}><br></br>TOP ENGINEERING COLLEGES OF UTTAR PRADESH</p>
       <br></br>
       <div style={{ marginBottom: '3rem' }} className="frame1">
         <div className="div1">

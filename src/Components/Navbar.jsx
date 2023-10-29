@@ -31,6 +31,11 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
+            <Link to='/community' className="nav-link">
+              Community
+            </Link>
+          </li>
+          <li>
             <a href='/#news' className="nav-link">
               News
             </a>

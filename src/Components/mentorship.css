@@ -77,12 +77,13 @@
         font-size: 5.5vw;
     }
     .frame img{
-        width: 3rem;
-        height: 3rem;
+        width: 5rem;
+        height: 5rem;
     }
     .frame{
         padding: 0 20px;
-        gap: 5px;
+        gap: 15px;
+        flex-wrap: wrap;
     }
     .frame p{
         font-size: 0.7rem;
@@ -90,5 +91,14 @@
     .enroll_now button{
         font-size: 1.2rem;
         padding: 7px 10px;
+    }
+}
+@media (max-width:310px){
+    .frame img{
+        width: 3rem;
+        height: 3rem;
+    }
+    .frame{
+        gap: 5px;
     }
 }

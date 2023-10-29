@@ -103,10 +103,8 @@ input[type="Number"]::-webkit-outer-spin-button {
 .linksOfContact {
   margin-top: 1vw;
   border: 2px solid black;
-  /* width: 25vw; */
-  /* height: 20vh; */
+  text-align: center;
   border-radius: 20px;
-  flex-direction: column;
   padding: 2rem 5rem;
 }
 
@@ -114,7 +112,6 @@ input[type="Number"]::-webkit-outer-spin-button {
   font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  width: max-content;
 }
 
 .n1 {
@@ -122,14 +119,11 @@ input[type="Number"]::-webkit-outer-spin-button {
 }
 
 @media (max-width:430px){
-  .flex_8{
-    flex-direction: column;
-  }
   .linksOfContact {
-    padding: 2rem 3rem;
+    padding: 4vw 3.5vw;
   }
   .linksOfContact p{
-    font-size: 1rem;
+    font-size: 1rem; 
   }
   .form_8 input{
     font-size: 1rem;
@@ -137,7 +131,6 @@ input[type="Number"]::-webkit-outer-spin-button {
   .content_8 h1 {
     font-size: 1.5rem;
   }
-  
 }
 
 @media (min-width:1440px){
