@@ -18,6 +18,7 @@ import Launch from './Screens/launchingsoon';
 import Form from './Screens/aktuform';
 import Personalmentor from './Screens/Personalmentor';
 import Community from './Components/Community';
+import Bot from './Components/home-components/Bot'
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
+      <a href="https://wa.me/message/37PSY2CRRSIJE1" target='_blank'><Bot /></a>
     </Router>
   );
 }

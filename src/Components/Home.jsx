@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 import Contactme from '../Screens/contactus'
 import About from '../Screens/About'
 
+
 export default function Home() {
   return (
     <div>
@@ -49,7 +50,6 @@ export default function Home() {
       <div id="contact">
         <Contactme />
       </div>
-
 
     </div>
   )

@@ -15,6 +15,10 @@ code {
     monospace;
 }
 
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
 
 /* Responsive_satyam_shukla */
 /* @media (max-width:${({ theme }) => theme.media,tab})
