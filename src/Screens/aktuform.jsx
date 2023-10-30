@@ -18,6 +18,7 @@ export function Desktop() {
       <div className="overlap-wrapper">
         <div className="overlap">
           <div className="frame2">
+          <div className="uptac-aktu">UPTAC/AKTU</div>
             <div className="overlap-group">
               <div className="rectangle" />
               <div className="jee-rank">JEE RANK</div>
@@ -54,31 +55,25 @@ export function Desktop() {
                 SUBMIT
               </div>
             </div>
-            <div className="uptac-aktu">UPTAC/AKTU</div>
           </div>
           <div className="frame-8">
             <p className="category">
               <span className="text-wrapper-20">CATEGORY</span>
             </p>
             <div className="rectangle-6">
-              <select
-                className="rectangle-6-select"
-              >
+              <select className="rectangle-6-select">
                 <option value="" disabled selected hidden>Select a category</option>
-                <option value="option1">Option 1</option>
-                <option value="option2">Option 2</option>
+                <option value="option1">General</option>
+                <option value="option2">General Ews</option>
+                <option value="option3">OBC</option>
+                <option value="option4">SC/ST</option>
+                <option value="option5">Others</option>
               </select>
             </div>
           </div>
           <div className="preferred-state">PREFERRED STATE</div>
           <div className="rectangle-7">
-            <select
-              className="rectangle-7-select"
-            >
-              <option value="" disabled selected hidden>Select a preferred state</option>
-              <option value="state1">State 1</option>
-              <option value="state2">State 2</option>
-            </select>
+              <input type="text" className="mobile-input" name="state" id="state" placeholder='Preferred state' />
           </div>
 
           <div className="text-wrapper-9">FULL NAME</div>

@@ -217,7 +217,7 @@
   cursor: pointer;
   user-select: none;
   border: none;
-  border-radius: 4px;
+  border-radius: 3rem;
 }
 
 /* Hover effect for the "SUBMIT" button */
@@ -294,7 +294,7 @@
 /* Styling for the selection box options */
 .desktop .rectangle-6 select.rectangle-6-select option {
   padding: 15px; /* Adjust padding to increase the size of the options */
-  font-size: 50px; /* Adjust font size for the options */
+  font-size: 1rem; /* Adjust font size for the options */
 }
 
 
@@ -389,14 +389,14 @@
 
 /* Styling for the selection box */
 .desktop .rectangle-7 {
-  background-color: #ffffff; /* Background color of the input box */
-  border: 2px solid #000000; /* Border color and thickness */
-  border-radius: 14px; /* Border radius for rounded corners */
-  height: 50px; /* Height of the input box */
-  position: absolute; /* Adjust the vertical and horizontal positions as needed */
   top: 630px;
   left: 900px;
-  width: 368px; /* Width of the input box */
+  background-color: #ffffff;
+  border: 2px solid #000000; /* Change border color to the desired color */
+  border-radius: 14px; /* Adjust border-radius for a rounded input field */
+  height: 50px; /* Adjust height to your preference */
+  position: absolute;
+  width: 368px;
   display: flex;
   flex-direction: column; /* Stack label and input vertically */
   align-items: center; /* Center label and input horizontally */
@@ -404,7 +404,7 @@
 }
 
 /* Styling for the selection box */
-.desktop .rectangle-7 select.rectangle-7-select {
+.desktop .rectangle-7 input {
   border: none; /* Remove input border */
   width: 100%; /* Make the input take the full width of the div */
   height: 100%; /* Make the input take the full height of the div */

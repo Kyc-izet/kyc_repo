@@ -31,8 +31,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to='/community' className="nav-link">
-              Community
+            <Link to='/collegepredictor' className="nav-link">
+            College Predictor
             </Link>
           </li>
           <li>
@@ -57,8 +57,8 @@ export default function Navbar() {
           </li>
           <li>
             <button className="button">
-              <Link to="/collegepredictor" className="buttonlnk">
-                College Predictor
+              <Link to="/community" className="buttonlnk">
+                Community
               </Link>
             </button>
           </li>

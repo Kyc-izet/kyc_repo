@@ -137,7 +137,7 @@ export default function Contactme() {
 
           <input
             type="number"
-            placeholder="mobile Number"
+            placeholder="Mobile Number"
             value={num}
             onChange={(e) => {
               setMobileno(e.target.value)

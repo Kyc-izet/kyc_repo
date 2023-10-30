@@ -1,5 +1,3 @@
-
-
 .frame {
   background-color: transparent;
   display: flex;
@@ -24,11 +22,12 @@
   top: 0;
   width: 347px;
 }
-.bg{
+
+.bg {
   /* box-shadow: 0px 0px 3rem #00EC65; */
   border: 5px solid #001e2b;
-  border-radius: 10px;
-
+  /* border-radius: 10px; */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .frame .img {
@@ -229,22 +228,28 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  overflow: hidden; /* Hide overflowing content */
-  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden;
+  /* Hide overflowing content */
+  white-space: nowrap;
+  /* Prevent text from wrapping */
 }
 
 .div {
   display: inline-block;
-  animation: slideRightToLeft 20s linear infinite; /* Adjust duration as needed */
+  animation: slideRightToLeft 20s linear infinite;
+  /* Adjust duration as needed */
 }
 
 /* Define the keyframes for the slide animation */
 @keyframes slideRightToLeft {
   0% {
-    transform: translateX(0%); /* Start position: -100% to the left */
+    transform: translateX(0%);
+    /* Start position: -100% to the left */
   }
+
   100% {
-    transform: translateX(-100%); /* End position: 100% to the right */
+    transform: translateX(-100%);
+    /* End position: 100% to the right */
   }
 }
 
@@ -259,10 +264,14 @@
 .text-wrapper-6,
 .text-wrapper-7,
 .text-wrapper-8 {
-  width: 291px; /* Adjust width as needed */
-  height: 171px; /* Adjust height as needed */
-  margin: 0 10px; /* Add spacing between elements */
-  display: inline-block; /* Ensure elements appear in a row */
+  width: 291px;
+  /* Adjust width as needed */
+  height: 171px;
+  /* Adjust height as needed */
+  margin: 0 10px;
+  /* Add spacing between elements */
+  display: inline-block;
+  /* Ensure elements appear in a row */
   color: #001e2b;
   font-family: "Inter-Bold", Helvetica;
   font-size: 40px;
@@ -505,22 +514,28 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  overflow: hidden; /* Hide overflowing content */
-  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden;
+  /* Hide overflowing content */
+  white-space: nowrap;
+  /* Prevent text from wrapping */
 }
 
 .div1 {
   display: inline-block;
-  animation: slideLeftToRight 20s linear infinite; /* Adjust duration as needed */
+  animation: slideLeftToRight 20s linear infinite;
+  /* Adjust duration as needed */
 }
 
 /* Define the keyframes for the slide animation */
 @keyframes slideLeftToRight {
   0% {
-    transform: translateX(-100%); /* Start position: -100% to the left */
+    transform: translateX(-100%);
+    /* Start position: -100% to the left */
   }
+
   100% {
-    transform: translateX(0%); /* End position: 100% to the right */
+    transform: translateX(0%);
+    /* End position: 100% to the right */
   }
 }
 
@@ -535,10 +550,14 @@
 .text-wrapper-61,
 .text-wrapper-71,
 .text-wrapper-81 {
-  width: 291px; /* Adjust width as needed */
-  height: 171px; /* Adjust height as needed */
-  margin: 0 10px; /* Add spacing between elements */
-  display: inline-block; /* Ensure elements appear in a row */
+  width: 291px;
+  /* Adjust width as needed */
+  height: 171px;
+  /* Adjust height as needed */
+  margin: 0 10px;
+  /* Add spacing between elements */
+  display: inline-block;
+  /* Ensure elements appear in a row */
   color: #001e2b;
   font-family: "Inter-Bold", Helvetica;
   font-size: 40px;
@@ -548,8 +567,8 @@
   text-align: center;
 }
 
-@media(max-width:450px){
-  .size{
+@media(max-width:450px) {
+  .size {
     font-size: 1.2rem !important;
   }
 }
