@@ -25,7 +25,7 @@ function About() {
           <div className="text-wrapper-4">BMSCE</div>
           <div className="text-wrapper-5">DAIICT</div>
           <div className="text-wrapper-6">THAPAR</div>
-          <div className="text-wrapper-7">M.S.EAMAIAH</div>
+          <div className="text-wrapper-7">M.S.RAMAIAH</div>
           <div className="text-wrapper-8">R.V.COLLEGE</div>
         </div>
       </div>

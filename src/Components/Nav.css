@@ -1,13 +1,4 @@
-.nav {
-    display: flex;
-    background-color: #001e2b;
-    align-items: center;
-    width: 100vw;
-    position: sticky;
-    padding: 25px 0 15px 0;
-    color: rgb(0, 237, 100);
-    cursor: pointer;
-}
+
 .logo{
     margin-bottom: 2rem;
 }
@@ -16,28 +7,18 @@
 }
 
 
-.nav ul {
 
-    display: flex;
-    list-style: none;
-}
 
 .btn {
     position: absolute;
-    top: 3vh;
+    top: 2vh;
     right: 13vh;
 }
-
-.menubutton {
-    position: absolute;
-    right: 3vh;
-    top: .5vh;
-    display: none;
+.btn:hover{
+    background-color: rgb(0, 237, 100);
+    color: black;
 }
 
-.menu-icon {
-    font-size: 10px !important;
-}
 
 .nav-link {
     padding-left: 1rem;
@@ -100,7 +81,7 @@
         padding-top: 20px;
         font-size: larger;
     }
-
+   
     .button {
         flex-direction: column;
         position: relative;
@@ -117,10 +98,10 @@
 
 .logo {
     /* background-image: url("C:\Users\ADITYA\Desktop\kyc\kyc\src\KCY_4-removebg-preview 1.png"); */
-    height: 60px;
+    height: 40px;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100px;
+    width: 50px;
     margin-top: -10px;
 }
 
@@ -198,3 +179,14 @@
         display: none;
     }
 }
+
+.custom-navbar {
+    background-color: #001e2b !important ;
+     text-align: center;
+
+  
+  }
+  .custom-navbar .nav-link {
+    margin-left: 40px;
+    
+  }

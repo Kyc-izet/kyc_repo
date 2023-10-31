@@ -1,57 +1,19 @@
 import React from "react";
-import { useFormik } from 'formik'
-import css from "./contactus.css";
 import axios from "axios";
 import { useState } from "react";
 import { FaLinkedin, FaEnvelope, FaWhatsapp, FaInstagram } from "react-icons/fa";
-import validator from 'validator'
-
-
-const validate = (values) => {
-  const errors = {}
-
-  if (!values.email) {
-    errors.email = 'Required'
-  } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
-    errors.email = 'Invalid email address'
-  }
-
-  return errors
-}
-
 
 export default function Contactme() {
+  const [name, setName] = useState('');
   const [email, setEmail] = useState("");
   const [mobileno, setMobileno] = useState("");
-  const [num, setNum] = useState('');
 
+  const submit = async (e) => {
+    e.preventDefault(); // Prevent the default form submission behavior
 
-  const formik = useFormik({
-    initialValues: {
-      email: '',
-    },
-    validate,
-    onSubmit: (values) => {
-      alert(JSON.stringify(values, null, 2))
-    },
-  })
-
-  const [emailError, setEmailError] = useState('')
-  const validateEmail = (e) => {
-    var email = e.target.value
-
-    if (validator.isEmail(email)) {
-      setEmailError('Valid Email :)')
-    } else {
-      alert("Enter valid email")
-    }
-  }
-
-  async function submit(e) {
-
-    e.preventDefault();
     try {
       const response = await axios.post("http://localhost:8000/register", {
+        name,
         email,
         mobileno,
       });
@@ -59,20 +21,19 @@ export default function Contactme() {
       if (response.data === "exist") {
         console.log("User already exists");
       } else if (response.data === "success") {
-        alert("registration succesful");
+        alert("Registration successful");
         console.log("Registration successful");
-        // You can also redirect the user to a login page or perform other actions here.
+        alert('registration succesful')
       } else {
-        console.log(
-          "Registration failed with an unknown response:",
-          response.data
-        );
+        console.log("registeres:", response.data);
+        alert('registration succesful')
       }
     } catch (error) {
       console.log("Axios Error:", error);
-      alert("registration unnsucessful");
+      alert("Registration unsuccessful");
     }
-  }
+  };
+
   return (
     <div className="container_8">
       <div className="contactme flex_8">
@@ -117,48 +78,42 @@ export default function Contactme() {
           </svg>
 
           <p>Fill your details & get assisted by Team KYC</p>
-          {/* <form action=""> */}
-          <input required type="text" placeholder="Name" />
+          <form action="POST">
+          <input type="text" placeholder="Name"
+          value={name}
+          onChange={(e)=>setName(e.target.value)} />
+
+          
           <input
-            required
             type="email"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          {/* <input required type="text" id="userEmail" placeholder="Email" /> */}
-
-          {/* <input placeholder="Email" type="email" name="email" id="email"
-            onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.email} />
-          {formik.touched.email && formik.errors.email ? (
-            <span>{formik.errors.email}</span>
-          ) : null} */}
-
 
           <input
             type="number"
             placeholder="mobile Number"
-            value={num}
-            onChange={(e) => {
-              setMobileno(e.target.value)
-              const limit = 10;
-              setNum(e.target.value.slice(0, limit));
-            }}
-
+            value={mobileno}
+            onChange={(e) => setMobileno(e.target.value)}
           />
+          
+          
           <select className="select">
             <option disabled selected hidden value="actual value 1">Current Status</option>
             <option value="actual value 1">In 12th</option>
             <option value="actual value 2">Dropper</option>
           </select>
           <input type="submit" value="Submit" onClick={submit} />
-          {/* </form> */}
+          </form>
+     
+
         </div>
         <div className="content_8 flex_8 col_8">
           <h1>
             WE'LL <apn className="span_8">REACH</apn>{" "}
           </h1>
-          <h1>YOU SOON</h1> 
+          <h1>YOU SOON</h1>
           <div className="linksOfContact">
             <p>Help & Support</p>
             <div className="n1 flex_8">
