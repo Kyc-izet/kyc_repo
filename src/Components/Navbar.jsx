@@ -1,73 +1,69 @@
 import React, { useState } from 'react';
 import '../Components/Nav.css';
 import { Link } from 'react-router-dom';
+import { Navbar, Nav, Button, } from 'react-bootstrap'; // Import React-Bootstrap components
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-import image from '../Components/kyc.png'
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'; // Import Font Awesome icons
+import image from '../Components/kyc.png';
 
-export default function Navbar() {
+
+export default function CustomNavbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [icon, setIcon] = useState("menu");
 
-  const Cross = () => {
+  const toggleMenu = () => {
     setMenuOpen(!menuOpen);
-    console.log(menuOpen);
-    menuOpen ? setIcon("x") : setIcon("menu");
   };
 
   return (
     <div>
-      <div className="nav">
-        <Link to="/" className="logo"><img src={image} /></Link>
-        <ul className={menuOpen ? "open" : ""}>
-          <li>
-            <Link to="/" className="nav-link">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/personalmentor" className="nav-link">
-              Personal Mentor
-            </Link>
-          </li>
-          <li>
-            <Link to='/collegepredictor' className="nav-link">
+      <Navbar expand="lg" variant="light" bg="light" className="custom-navbar">
+        <Link to="/" className="logo"><img src={image} alt="Logo" /></Link>
+        {/* <Link to='/collegepredictor'>
+          <Button variant="outline-success" className="my-2 my-sm-0">
             College Predictor
+          </Button>
+        </Link> */}
+        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleMenu}>
+          <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} />
+        </Navbar.Toggle>
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link as={Link} to="/" className="nav-link">
+              Home
+            </Nav.Link>
+            <Nav.Link as={Link} to="/personalmentor" className="nav-link">
+              Personal Mentor
+
+            </Nav.Link>
+
+
+
+
+            <Link to='/community' className="nav-link">
+              Community
             </Link>
-          </li>
-          <li>
-            <a href='/#news' className="nav-link">
-              News
-            </a>
-          </li>
-          <li>
-            <Link to="/Launchingsoon" className="nav-link">
+
+
+
+            <Nav.Link as={Link} to="/Launchingsoon" className="nav-link">
               Compare Colleges
-            </Link>
-          </li>
-          <li>
-            <a href="https://wa.me/message/37PSY2CRRSIJE1" className="nav-link">
+            </Nav.Link>
+            <Nav.Link href='https://wa.me/message/37PSY2CRRSIJE1' className="nav-link">
               Contact Us
-            </a>
-          </li>
-          <li>
-            <Link to="/about" className="nav-link">
+            </Nav.Link>
+            <Nav.Link as={Link} to="/about" className="nav-link">
               About Us
+            </Nav.Link>
+            <Link to='/collegepredictor'>
+              <Button variant="outline-success" className="my-2 ">
+                College Predictor
+              </Button>
             </Link>
-          </li>
-          <li>
-            <button className="button">
-              <Link to="/community" className="buttonlnk">
-                Community
-              </Link>
-            </button>
-          </li>
-        </ul>
-        <button className="menubutton" onClick={Cross}>
-          <FontAwesomeIcon icon={faBars} style={{ color: 'green' }} />
-          <box-icon className="menu-icon" name={icon} color="white" size="md"></box-icon>
-        </button>
-      </div>
+          </Nav>
+
+        </Navbar.Collapse>
+
+      </Navbar>
     </div>
   );
 }

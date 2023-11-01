@@ -571,4 +571,21 @@
   .size {
     font-size: 1.2rem !important;
   }
+  .bgborder{
+    margin: 0 1rem;
+    /* color: rgb(0, 237, 100); */
+    font-weight: bold;
+  }
+}
+
+@media(min-width:450px){
+  .bgborder{
+    background-color: rgb(0, 237, 100);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    width: max-content;
+    margin: 0 2rem;
+    border-radius: 1rem;
+  }
 }

@@ -22,29 +22,24 @@ mongoose.connect("mongodb+srv://adityathakur6199:mern123@cluster0.tx7zc2l.mongod
   });
 
 app.post('/register', async (req, res) => {
-  const { email, Number} = req.body;
-
   try {
-    // Check if a user with the same email already exists
-    const existingUser = await Collection.findOne({ email });
+    const { name, email, mobileno } = req.body;
 
-    if (existingUser) {
-      // If a user with the same email exists, respond with a conflict status (HTTP 409)
-      res.status(409).json('User already exists');
-    } else {
-      // Create a new user if no user with the same email exists
-      const newUser = new Collection({ email, Number });
-      await newUser.save();
-      // Respond with a success message
-      res.json('Registration successful');
-    }
+    const data = new Collection({
+      name: name,
+      email: email,
+      mobileno: mobileno
+    });
+
+    // Save the data to MongoDB
+    await data.save();
+
+    res.status(200).json({ message: 'Registration successful' });
   } catch (error) {
-    console.error('Error:', error);
-    res.status(500).json('Error during registration');
+    console.error('Error registering:', error);
+    res.status(500).json({ message: 'Error registering' });
   }
 });
-
-
 
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
