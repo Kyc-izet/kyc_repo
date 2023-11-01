@@ -117,48 +117,38 @@ export default function Contactme() {
           </svg>
 
           <p>Fill your details & get assisted by Team KYC</p>
-          {/* <form action=""> */}
-          <input required type="text" placeholder="Name" />
-          <input
-            required
-            type="email"
-            placeholder="Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          {/* <input required type="text" id="userEmail" placeholder="Email" /> */}
-
-          {/* <input placeholder="Email" type="email" name="email" id="email"
-            onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.email} />
-          {formik.touched.email && formik.errors.email ? (
-            <span>{formik.errors.email}</span>
-          ) : null} */}
-
-
-          <input
-            type="number"
-            placeholder="Mobile Number"
-            value={num}
-            onChange={(e) => {
-              setMobileno(e.target.value)
-              const limit = 10;
-              setNum(e.target.value.slice(0, limit));
-            }}
-
-          />
-          <select className="select">
-            <option disabled selected hidden value="actual value 1">Current Status</option>
-            <option value="actual value 1">In 12th</option>
-            <option value="actual value 2">Dropper</option>
-          </select>
-          <input type="submit" value="Submit" onClick={submit} />
-          {/* </form> */}
+          <form action="POST">
+            <input required type="text" placeholder="Name" />
+            <input
+              required
+              type="email"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <input
+              type="number"
+              placeholder="Mobile Number"
+              value={num}
+              onChange={(e) => {
+                setMobileno(e.target.value)
+                const limit = 10;
+                setNum(e.target.value.slice(0, limit));
+              }}
+            />
+            <select className="select">
+              <option disabled selected hidden value="actual value 1">Current Status</option>
+              <option value="actual value 1">In 12th</option>
+              <option value="actual value 2">Dropper</option>
+            </select>
+            <input type="submit" value="Submit" onClick={submit} />
+          </form>
         </div>
         <div className="content_8 flex_8 col_8">
           <h1>
             WE'LL <apn className="span_8">REACH</apn>{" "}
           </h1>
-          <h1>YOU SOON</h1> 
+          <h1>YOU SOON</h1>
           <div className="linksOfContact">
             <p>Help & Support</p>
             <div className="n1 flex_8">

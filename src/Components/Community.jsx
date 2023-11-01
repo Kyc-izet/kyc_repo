@@ -28,7 +28,7 @@ const Community = () => {
                     <div className={css.links}>
                         <FaDiscord color="white" size="6rem" />
                         <h1 className={css.name}>Discord Community</h1>
-                        <a className={css.btn} href="https://wa.me/message/37PSY2CRRSIJE1">Join Community</a>
+                        <a className={css.btn} href="https://discord.gg/YV35EArh">Join Community</a>
                     </div>
                 </div>
             </div>

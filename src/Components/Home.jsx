@@ -18,7 +18,7 @@ export default function Home() {
             <div className="heading_1 flex_1 col_1 left_align_1">
               <h1 className='h_1'>COLLEGE</h1>
               <h1 className='h_1'>ADMISSION</h1>
-              <h1 className='h_1'>MADE <span className='span_1'>EASY</span></h1>
+              <h1 className='h_1'>MADE <span className='span_1'>AT EASE</span></h1>
             </div>
             <div className="info_1">A platform that connects You with Mentors "DIRECTLY" from your dream colleges.Connect and ask every doubt' Get Clarity on your college selections</div>
             <Link to='/personalmentor' className="getstarted">Get Started</Link>
@@ -33,7 +33,7 @@ export default function Home() {
             <h1 className='h_2'>Get set go</h1>
             <h1 className='h_2'><span className='span_1'>Your Dream</span></h1>
             <h1 className='h_2'>Colleges Are <span className='span_1'>Here..</span></h1>
-            <h1 className='h_2'><span className='span_1'>Get your queries</span></h1>
+            <h1 className='h_2'>Get your<span className='span_1'> queries</span> Resolved</h1>
             <a className='askBtn' href="#contact">Ask Here</a>
           </div>
           <div className="img_2">
