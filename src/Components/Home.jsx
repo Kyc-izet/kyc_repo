@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <div className="container_1">
-        <h1 className='hide'>COLLEGE ADMISSION MADE <span className='span_1'>EASY</span></h1>
+        <h1 className='hide'>COLLEGE ADMISSION MADE <span className='span_1'>AT EASE</span></h1>
         <div className="section_1 flex_1">
           <div className="content_1 flex_1 col_1 left_align_1">
             <div className="heading_1 flex_1 col_1 left_align_1">

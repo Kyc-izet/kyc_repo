@@ -147,3 +147,8 @@ input[type="Number"]::-webkit-outer-spin-button {
     font-size: 1rem;
   }
 }
+
+
+.width100{
+  width: 100%;
+}

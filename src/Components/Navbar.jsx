@@ -15,19 +15,14 @@ export default function CustomNavbar() {
   };
 
   return (
-    <div>
-      <Navbar expand="lg" variant="light" bg="light" className="custom-navbar">
+    <div className='navBarr'>
+      <Navbar expand="lg" variant="light" bg="dark" className="custom-navbar">
         <Link to="/" className="logo"><img src={image} alt="Logo" /></Link>
-        {/* <Link to='/collegepredictor'>
-          <Button variant="outline-success" className="my-2 my-sm-0">
-            College Predictor
-          </Button>
-        </Link> */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleMenu}>
+        <Navbar.Toggle className='hamburger-button' aria-controls="basic-navbar-nav" onClick={toggleMenu}>
           <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} />
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="mr-auto auto">
             <Nav.Link as={Link} to="/" className="nav-link">
               Home
             </Nav.Link>
@@ -35,30 +30,20 @@ export default function CustomNavbar() {
               Personal Mentor
 
             </Nav.Link>
-
-
-
-
             <Link to='/community' className="nav-link">
               Community
             </Link>
 
-
-
             <Nav.Link as={Link} to="/Launchingsoon" className="nav-link">
               Compare Colleges
-            </Nav.Link>
-            <Nav.Link href='https://wa.me/message/37PSY2CRRSIJE1' className="nav-link">
-              Contact Us
             </Nav.Link>
             <Nav.Link as={Link} to="/about" className="nav-link">
               About Us
             </Nav.Link>
-            <Link to='/collegepredictor'>
-              <Button variant="outline-success" className="my-2 ">
-                College Predictor
-              </Button>
-            </Link>
+
+            <Nav.Link as={Link} to="/collegepredictor" className="nav-link">
+            College Predictor
+            </Nav.Link>
           </Nav>
 
         </Navbar.Collapse>

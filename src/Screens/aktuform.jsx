@@ -16,7 +16,7 @@ export function Desktop() {
   return (
     <div className="desktop">
       <div className="overlap-wrapper">
-        <div className="overlap">
+        {/* <div className="overlap">
           <div className="frame2">
           <div className="uptac-aktu">UPTAC/AKTU</div>
             <div className="overlap-group">
@@ -85,7 +85,7 @@ export function Desktop() {
             />
           </div>
 
-        </div>
+        </div> */}
       </div>
     </div>
   );

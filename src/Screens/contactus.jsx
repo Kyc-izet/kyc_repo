@@ -117,7 +117,7 @@ export default function Contactme() {
           </svg>
 
           <p>Fill your details & get assisted by Team KYC</p>
-          <form action="POST">
+          <form action="POST" className="width100 flex_8 col_8" style={{gap:'1rem'}}>
             <input required type="text" placeholder="Name" />
             <input
               required

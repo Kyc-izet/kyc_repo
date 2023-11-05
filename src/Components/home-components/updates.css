@@ -1,15 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     background-color: #011F2B;
-    min-width:100vw;
-    border-bottom-left-radius: 6vw; 
+    min-width: 100vw;
+    border-bottom-left-radius: 6vw;
     border-bottom-right-radius: 6vw;
     position: relative;
 }
+
 /* .container::before{
     content: "";
     position: absolute;
@@ -32,93 +34,115 @@
     background-color: #01141c;
     box-shadow: black 0px 0px 10px 1px;
 } */
-.container h1{
-    color: #01ED65;
+.container h1 {
+    /* color: #01ED65; */
     font-size: 2rem;
     margin-top: 1rem;
-    font-family:sans-serif;
+    font-family: sans-serif;
     text-align: center;
+    font-weight: bold;
+    background-color: #01ED65;
+    color: #011F2B;
+    padding: 1rem 3rem;
+    border-radius: 5rem;
 }
-.flex{
-    display:flex;
-    align-items:center;
-    justify-content:center;
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.col{
+
+.col {
     flex-direction: column;
 }
-.gray{
+
+.gray {
     background-color: #D8D8D9;
     width: 15vw;
     height: 17vw;
 }
-.gap{
+
+.gap {
     gap: 2vw;
 }
-.middle{
+
+.middle {
     gap: 10vw;
     margin-bottom: 8vw;
     padding-top: 0;
 }
-.text-design{
+
+.text-design {
     text-align: center;
     font-weight: 600;
     padding: 1vw;
     font-size: 1.3vw;
 }
-img{
+
+img {
     width: 25vw;
 }
 
-.news{
+.news {
     width: 35rem;
     background-color: rgba(111, 111, 111, 0.278);
     border-radius: 20px;
     padding: 30px 20px;
 }
-.news li{
+
+.news li {
     font-size: 1.5rem;
     color: #01ED65;
 }
-.news a{
+
+.news a {
     color: white;
     text-decoration: none;
     display: block;
     margin: 10px 0;
     /* letter-spacing: 1.5px; */
 }
-.news a:hover{
+
+.news a:hover {
     color: #01ED65;
     text-decoration: underline;
     transition: .2s ease;
 }
 
-@media (max-width: 914px){
-    .news{
+@media (max-width: 914px) {
+    .news {
         width: 50vw;
     }
-    .news li{
+
+    .news li {
         font-size: 1rem;
     }
 }
-@media (max-width: 769px){
-    .flex{
+
+@media (max-width: 769px) {
+    .flex {
         flex-direction: column;
     }
-    .section3{
+
+    .section3 {
         display: none;
     }
-    .news{
+
+    .news {
         width: 80vw;
     }
-    .news li{
+
+    .news li {
         font-size: 1rem;
     }
 }
-@media (max-width: 430px){
-    .heading h1{
+
+@media (max-width: 450px) {
+    .heading h1 {
         font-size: .8rem;
         text-align: center;
         text-wrap: wrap;
+        padding: 1rem 0.6rem;
     }
 }

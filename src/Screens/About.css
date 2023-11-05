@@ -520,9 +520,13 @@
   /* Prevent text from wrapping */
 }
 
+.size{
+  text-wrap: wrap !important;
+}
 .div1 {
   display: inline-block;
   animation: slideLeftToRight 20s linear infinite;
+  /* animation-direction: alternate; */
   /* Adjust duration as needed */
 }
 
@@ -575,6 +579,11 @@
     margin: 0 1rem;
     /* color: rgb(0, 237, 100); */
     font-weight: bold;
+  }
+  .div1 {
+    display: inline-block;
+    animation: slideLeftToRight 10s linear infinite;
+    /* animation-direction: alternate; */
   }
 }
 

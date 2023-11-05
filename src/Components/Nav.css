@@ -22,22 +22,32 @@
 
 
 .nav-link {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 10px 1rem;
     border-radius: 12px;
-    padding-top: 20px;
     text-decoration: none;
-    padding-bottom: 20px;
     color: white;
     font-size: larger;
+}
+.nav-link:focus{
+    color: #00BC4C;
+}
+
+@media(min-width:992px){
+    .auto{
+        display: flex;
+        gap: 1rem;
+        margin-left: 3rem;
+    }
+}
+@media(max-width:991px){
+    .auto{
+        margin-top: 2rem;
+    }
 }
 
 .nav-link:hover {
     background-color: rgb(0, 237, 100);
     color: black;
-
-
-
 }
 
 .button {
@@ -103,34 +113,24 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 50px;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 
 .buttonlnk {
     text-decoration-style: none;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .hamburger-button {
-    background-color: black;
-    /* Background color of the button */
     color: white;
-    /* Text color of the button */
-    padding: 1px 1px;
-    /* Padding inside the button */
-    border: none;
-    /* Remove the button border */
+    padding: 3px 10px;
     cursor: pointer;
-    /* Change the cursor to a pointer on hover */
-    outline: none;
-    /* Remove the button outline on focus */
     border-radius: 5px;
-    /* Add some border radius for rounded corners */
+    margin-right: 2rem;
 }
 
 .menubutton {
-
     height: 20px;
     width: 40px;
 }
@@ -184,11 +184,20 @@
 .custom-navbar {
     background-color: #001e2b !important;
     text-align: center;
-
-
+    padding: 1.2rem 0;
 }
 
-.custom-navbar .nav-link {
-    margin-left: 40px;
 
+
+.navBarr::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #00BC4C;
 }
+
+/* .auto{
+    width: max-content;
+    margin: auto;
+} */

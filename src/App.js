@@ -15,7 +15,7 @@ import Abots from './Screens/Abots';
 import Flag from './Screens/contactus'
 import Contactme from './Screens/contactus';
 import Launch from './Screens/launchingsoon';
-import Form from './Screens/aktuform';
+import Form from './Components/home-components/Form';
 import Personalmentor from './Screens/Personalmentor';
 import Community from './Components/Community';
 import Bot from './Components/home-components/Bot'
