@@ -36,10 +36,10 @@ export default function footer() {
             <p>GET OUR</p>
             <p>ASSISTANCES</p>
             <div className="social-icons flex">
-              <a href="https://www.linkedin.com/company/know-your-colleges/"><FaLinkedin fontSize={"2rem"} /></a>
-              <a href="https://chat.whatsapp.com/LhMiXCqeYg6Lm7hJa8nseW"><FaWhatsapp fontSize={"2rem"} /></a>
-              <a href="https://instagram.com/knowyourcolleges_kyc?igshid=OGQ5ZDc2ODk2ZA=="><FaInstagram fontSize={"2rem"} /></a>
-              <a href=""><FaEnvelope fontSize={"2rem"} /></a>
+              <a target='_blank' href="https://www.linkedin.com/company/know-your-colleges/"><FaLinkedin color='white' fontSize={"2rem"} /></a>
+              <a target='_blank' href="https://wa.me/message/37PSY2CRRSIJE1"><FaWhatsapp color='white' fontSize={"2rem"} /></a>
+              <a target='_blank' href="https://instagram.com/knowyourcolleges_kyc?igshid=OGQ5ZDc2ODk2ZA=="><FaInstagram color='white' fontSize={"2rem"} /></a>
+              <a target='_blank' href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbthsFlCqnjPcBwKRVWnhKNwRPrZfjpfMVcDdRdCKRcqGnpPLmpsRtWPHtghxdVZLWhmxK"><FaEnvelope color='white' fontSize={"2rem"} /></a>
             </div>
           </div>
         </div>
@@ -59,14 +59,14 @@ export default function footer() {
               <li>FAQS</li>
             </ul>
           </div>
-          <hr style={{backgroundColor:'white', width:'80%',margin:'auto'}} />
+          <hr style={{ backgroundColor: 'white', width: '80%', margin: 'auto' }} />
           <div className="assistance">
             <p style={{ color: 'white' }}>GET OUR <span style={{ color: '#00ED64' }}>ASSISTANCES</span></p>
             <div className=" alinks">
-              <a href="https://www.linkedin.com/company/know-your-colleges/"><FaLinkedin color='white' fontSize={"2rem"} /></a>
-              <a href="https://wa.me/message/37PSY2CRRSIJE1"><FaWhatsapp color='white' fontSize={"2rem"} /></a>
-              <a href="https://instagram.com/knowyourcolleges_kyc?igshid=OGQ5ZDc2ODk2ZA=="><FaInstagram color='white' fontSize={"2rem"} /></a>
-              <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbthsFlCqnjPcBwKRVWnhKNwRPrZfjpfMVcDdRdCKRcqGnpPLmpsRtWPHtghxdVZLWhmxK"><FaEnvelope color='white' fontSize={"2rem"} /></a>
+              <a target='_blank' href="https://www.linkedin.com/company/know-your-colleges/"><FaLinkedin color='white' fontSize={"2rem"} /></a>
+              <a target='_blank' href="https://wa.me/message/37PSY2CRRSIJE1"><FaWhatsapp color='white' fontSize={"2rem"} /></a>
+              <a target='_blank' href="https://instagram.com/knowyourcolleges_kyc?igshid=OGQ5ZDc2ODk2ZA=="><FaInstagram color='white' fontSize={"2rem"} /></a>
+              <a target='_blank' href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbthsFlCqnjPcBwKRVWnhKNwRPrZfjpfMVcDdRdCKRcqGnpPLmpsRtWPHtghxdVZLWhmxK"><FaEnvelope color='white' fontSize={"2rem"} /></a>
             </div>
           </div>
           <div className="aImage">
