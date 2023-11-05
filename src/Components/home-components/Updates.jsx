@@ -19,11 +19,11 @@ export default function Home() {
           </div> */}
           <div className="news">
             <ul>
-              <li><a target='_blank' href="https://aktu.ac.in/circulars.html">AKTU CIRULARS</a></li>
+              <li><a target='_blank' href="https://aktu.ac.in/circulars.html">AKTU CIRCULARS</a></li>
               {/* <li><a target='_blank' href="https://ctpc.aktu.ac.in/">CENTRAL TRAINING AND PLACEMENT CELL</a></li> */}
               <li><a target='_blank' href="https://uptac.admissions.nic.in/">UPTAC ADMISSION</a></li>
-              <li><a target='_blank' href="https://josaa.nic.in/or-cr/">JOSSA CUT OFF</a></li>
-              <li><a target='_blank' href="https://josaa.nic.in/news-event/">JOSSA NEWS & UPDATES</a></li>
+              <li><a target='_blank' href="https://josaa.nic.in/or-cr/">JOSAA CUT OFF</a></li>
+              <li><a target='_blank' href="https://josaa.nic.in/news-event/">JOSAA NEWS & UPDATES</a></li>
               <li><a target='_blank' href="https://mcc.nic.in/news-events-ug-medical/">MEDICAL COUNSELLING COMMITTEE</a></li>
               <li><a target='_blank' href="https://ntaresults.nic.in/NTARESULTS_CMS/Page/Page?PageId=7&LangId=P">NTA PREVIOUS YEAR RESULTS</a></li>
             </ul>
