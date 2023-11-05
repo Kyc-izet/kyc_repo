@@ -38,6 +38,17 @@
         gap: 1rem;
         margin-left: 3rem;
     }
+    .spaceBet{
+        display: flex;
+        justify-content: space-between !important;
+        gap: 1rem !important;
+    }
+    .community{
+        position: absolute;
+        right: 1.4rem;
+        border: 2px solid #00BC4C;
+        color: #00BC4C;
+    }
 }
 @media(max-width:991px){
     .auto{

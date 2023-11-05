@@ -154,7 +154,7 @@ export default function Contactme() {
             <div className="n1 flex_8">
               <a target="_blank" href="https://www.linkedin.com/company/know-your-colleges/
 "><FaLinkedin color="#011f2b" size="2rem" /></a>
-              <a target="_blank" href="https://wa.me/message/37PSY2CRRSIJE1"><FaWhatsapp color="#011f2b" size="2rem" /></a>
+              <a target="_blank" href="https://chat.whatsapp.com/LhMiXCqeYg6Lm7hJa8nseW"><FaWhatsapp color="#011f2b" size="2rem" /></a>
               <a target="_blank" href="https://instagram.com/knowyourcolleges_kyc?igshid=OGQ5ZDc2ODk2ZA=="><FaInstagram color="#011f2b" size="2rem" /></a>
               <a target="_blank" href="info@knowyourcolleges.com"><FaEnvelope color="#011f2b" size="2rem" /></a>
             </div>

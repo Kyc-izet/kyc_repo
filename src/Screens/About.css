@@ -571,7 +571,7 @@
   text-align: center;
 }
 
-@media(max-width:450px) {
+@media(max-width:700px) {
   .size {
     font-size: 1.2rem !important;
   }
@@ -587,7 +587,7 @@
   }
 }
 
-@media(min-width:450px){
+@media(min-width:701px){
   .bgborder{
     background-color: rgb(0, 237, 100);
     font-weight: bold;

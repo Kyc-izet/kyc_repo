@@ -37,7 +37,7 @@ export default function footer() {
             <p>ASSISTANCES</p>
             <div className="social-icons flex">
               <a href="https://www.linkedin.com/company/know-your-colleges/"><FaLinkedin fontSize={"2rem"} /></a>
-              <a href="https://wa.me/message/37PSY2CRRSIJE1"><FaWhatsapp fontSize={"2rem"} /></a>
+              <a href="https://chat.whatsapp.com/LhMiXCqeYg6Lm7hJa8nseW"><FaWhatsapp fontSize={"2rem"} /></a>
               <a href="https://instagram.com/knowyourcolleges_kyc?igshid=OGQ5ZDc2ODk2ZA=="><FaInstagram fontSize={"2rem"} /></a>
               <a href=""><FaEnvelope fontSize={"2rem"} /></a>
             </div>

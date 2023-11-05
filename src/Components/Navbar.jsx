@@ -21,7 +21,7 @@ export default function CustomNavbar() {
         <Navbar.Toggle className='hamburger-button' aria-controls="basic-navbar-nav" onClick={toggleMenu}>
           <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} />
         </Navbar.Toggle>
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav spaceBet">
           <Nav className="mr-auto auto">
             <Nav.Link as={Link} to="/" className="nav-link">
               Home
@@ -30,9 +30,6 @@ export default function CustomNavbar() {
               Personal Mentor
 
             </Nav.Link>
-            <Link to='/community' className="nav-link">
-              Community
-            </Link>
 
             <Nav.Link as={Link} to="/Launchingsoon" className="nav-link">
               Compare Colleges
@@ -42,9 +39,14 @@ export default function CustomNavbar() {
             </Nav.Link>
 
             <Nav.Link as={Link} to="/collegepredictor" className="nav-link">
-            College Predictor
+              College Predictor
             </Nav.Link>
           </Nav>
+
+
+          <Link to='/community' className="nav-link community">
+            Community
+          </Link>
 
         </Navbar.Collapse>
 

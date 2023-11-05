@@ -51,6 +51,8 @@ export const Mem = () => {
               Aditya Pandey
               <br />
               Ashish Kothari
+              <br />
+              Ohm Gaud
             </p>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import css from './Community.module.css'
-import { FaLinkedin, FaWhatsapp, FaInstagram, FaDiscord } from "react-icons/fa";
+import { FaLinkedin, FaWhatsapp, FaQuora, FaDiscord } from "react-icons/fa";
 
 const Community = () => {
     return (
@@ -14,16 +14,16 @@ const Community = () => {
                         <a className={css.btn} href="https://wa.me/message/37PSY2CRRSIJE1">Join Community</a>
                     </div>
                     <div className={css.links}>
-                        <FaInstagram color="white" size="6rem" />
-                        <h1 className={css.name}>Instagram Community</h1>
-                        <a className={css.btn} href="https://instagram.com/knowyourcolleges_kyc?igshid=OGQ5ZDc2ODk2ZA==">Join Community</a>
+                        <FaLinkedin color="white" size="6rem" />
+                        <h1 className={css.name}>LinkedIn Community</h1>
+                        <a className={css.btn} href="https://www.linkedin.com/company/know-your-colleges/">Join Community</a>
                     </div>
                 </div>
                 <div className={css.pages}>
                     <div className={css.links}>
-                        <FaLinkedin color="white" size="6rem" />
-                        <h1 className={css.name}>LinkedIn Community</h1>
-                        <a className={css.btn} href="https://www.linkedin.com/company/know-your-colleges/">Join Community</a>
+                        <FaQuora color="white" size="6rem" />
+                        <h1 className={css.name}>Quora Community</h1>
+                        <a className={css.btn} href="https://knowyourcolleges.quora.com/?ch=3&oid=4528461&share=396067ef&srid=3nOE3n&target_type=tribe">Join Community</a>
                     </div>
                     <div className={css.links}>
                         <FaDiscord color="white" size="6rem" />
