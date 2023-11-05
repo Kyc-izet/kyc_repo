@@ -66,7 +66,7 @@ export default function footer() {
               <a href="https://www.linkedin.com/company/know-your-colleges/"><FaLinkedin color='white' fontSize={"2rem"} /></a>
               <a href="https://wa.me/message/37PSY2CRRSIJE1"><FaWhatsapp color='white' fontSize={"2rem"} /></a>
               <a href="https://instagram.com/knowyourcolleges_kyc?igshid=OGQ5ZDc2ODk2ZA=="><FaInstagram color='white' fontSize={"2rem"} /></a>
-              <a href=""><FaEnvelope color='white' fontSize={"2rem"} /></a>
+              <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbthsFlCqnjPcBwKRVWnhKNwRPrZfjpfMVcDdRdCKRcqGnpPLmpsRtWPHtghxdVZLWhmxK"><FaEnvelope color='white' fontSize={"2rem"} /></a>
             </div>
           </div>
           <div className="aImage">

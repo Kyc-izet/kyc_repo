@@ -156,7 +156,7 @@ export default function Contactme() {
 "><FaLinkedin color="#011f2b" size="2rem" /></a>
               <a target="_blank" href="https://chat.whatsapp.com/LhMiXCqeYg6Lm7hJa8nseW"><FaWhatsapp color="#011f2b" size="2rem" /></a>
               <a target="_blank" href="https://instagram.com/knowyourcolleges_kyc?igshid=OGQ5ZDc2ODk2ZA=="><FaInstagram color="#011f2b" size="2rem" /></a>
-              <a target="_blank" href="info@knowyourcolleges.com"><FaEnvelope color="#011f2b" size="2rem" /></a>
+              <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbthsFlCqnjPcBwKRVWnhKNwRPrZfjpfMVcDdRdCKRcqGnpPLmpsRtWPHtghxdVZLWhmxK"><FaEnvelope color="#011f2b" size="2rem" /></a>
             </div>
           </div>
         </div>
