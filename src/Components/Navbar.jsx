@@ -45,7 +45,7 @@ export default function CustomNavbar() {
 
 
           <Link to='/community' className="nav-link community">
-            Community
+            Join Community
           </Link>
 
         </Navbar.Collapse>
