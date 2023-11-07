@@ -1,57 +1,19 @@
 import React from "react";
-import { useFormik } from 'formik'
-import css from "./contactus.css";
 import axios from "axios";
 import { useState } from "react";
 import { FaLinkedin, FaEnvelope, FaWhatsapp, FaInstagram } from "react-icons/fa";
-import validator from 'validator'
-
-
-const validate = (values) => {
-  const errors = {}
-
-  if (!values.email) {
-    errors.email = 'Required'
-  } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
-    errors.email = 'Invalid email address'
-  }
-
-  return errors
-}
-
 
 export default function Contactme() {
+  const [name, setName] = useState('');
   const [email, setEmail] = useState("");
   const [mobileno, setMobileno] = useState("");
-  const [num, setNum] = useState('');
 
+  const submit = async (e) => {
+    e.preventDefault(); // Prevent the default form submission behavior
 
-  const formik = useFormik({
-    initialValues: {
-      email: '',
-    },
-    validate,
-    onSubmit: (values) => {
-      alert(JSON.stringify(values, null, 2))
-    },
-  })
-
-  const [emailError, setEmailError] = useState('')
-  const validateEmail = (e) => {
-    var email = e.target.value
-
-    if (validator.isEmail(email)) {
-      setEmailError('Valid Email :)')
-    } else {
-      alert("Enter valid email")
-    }
-  }
-
-  async function submit(e) {
-
-    e.preventDefault();
     try {
       const response = await axios.post("http://localhost:8000/register", {
+        name,
         email,
         mobileno,
       });
@@ -59,20 +21,19 @@ export default function Contactme() {
       if (response.data === "exist") {
         console.log("User already exists");
       } else if (response.data === "success") {
-        alert("registration succesful");
+        alert("Registration successful");
         console.log("Registration successful");
-        // You can also redirect the user to a login page or perform other actions here.
+        alert('registration succesful')
       } else {
-        console.log(
-          "Registration failed with an unknown response:",
-          response.data
-        );
+        console.log("registeres:", response.data);
+        alert('registration succesful')
       }
     } catch (error) {
       console.log("Axios Error:", error);
-      alert("registration unnsucessful");
+      alert("Registration unsuccessful");
     }
-  }
+  };
+
   return (
     <div className="container_8">
       <div className="contactme flex_8">
@@ -117,25 +78,27 @@ export default function Contactme() {
           </svg>
 
           <p>Fill your details & get assisted by Team KYC</p>
-          <form action="POST" className="width100 flex_8 col_8" style={{gap:'1rem'}}>
-            <input required type="text" placeholder="Name" />
+          <form action="POST">
+            <input type="text" placeholder="Name"
+              value={name}
+              onChange={(e) => setName(e.target.value)} />
+
+
             <input
-              required
               type="email"
               placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
+
             <input
               type="number"
-              placeholder="Mobile Number"
-              value={num}
-              onChange={(e) => {
-                setMobileno(e.target.value)
-                const limit = 10;
-                setNum(e.target.value.slice(0, limit));
-              }}
+              placeholder="mobile Number"
+              value={mobileno}
+              onChange={(e) => setMobileno(e.target.value)}
             />
+
+
             <select className="select">
               <option disabled selected hidden value="actual value 1">Current Status</option>
               <option value="actual value 1">In 12th</option>
@@ -143,6 +106,8 @@ export default function Contactme() {
             </select>
             <input type="submit" value="Submit" onClick={submit} />
           </form>
+
+
         </div>
         <div className="content_8 flex_8 col_8">
           <h1>
@@ -154,9 +119,9 @@ export default function Contactme() {
             <div className="n1 flex_8">
               <a target="_blank" href="https://www.linkedin.com/company/know-your-colleges/
 "><FaLinkedin color="#011f2b" size="2rem" /></a>
-              <a target="_blank" href="https://chat.whatsapp.com/LhMiXCqeYg6Lm7hJa8nseW"><FaWhatsapp color="#011f2b" size="2rem" /></a>
+              <a target="_blank" href="https://wa.me/message/37PSY2CRRSIJE1"><FaWhatsapp color="#011f2b" size="2rem" /></a>
               <a target="_blank" href="https://instagram.com/knowyourcolleges_kyc?igshid=OGQ5ZDc2ODk2ZA=="><FaInstagram color="#011f2b" size="2rem" /></a>
-              <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbthsFlCqnjPcBwKRVWnhKNwRPrZfjpfMVcDdRdCKRcqGnpPLmpsRtWPHtghxdVZLWhmxK"><FaEnvelope color="#011f2b" size="2rem" /></a>
+              <a target="_blank" href="info@knowyourcolleges.com"><FaEnvelope color="#011f2b" size="2rem" /></a>
             </div>
           </div>
         </div>
