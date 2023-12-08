@@ -14,12 +14,12 @@
 }
 
 .title h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 
 .title p {
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: lighter;
 }
 
@@ -37,19 +37,19 @@
     gap: 2rem;
     border: 3px solid white;
     padding: 1rem 2.5rem;
-    border-radius: 40rem;
-    width: 1200px;
+    border-radius: 6rem;
+    width: 600px;
     background-color: #031922;
 }
 
 .teamMembers img {
-    width: 20rem;
+    width: 15rem;
     mix-blend-mode: screen;
 }
 
 .post {
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .info h3 {

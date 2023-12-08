@@ -1,7 +1,7 @@
 /* ImageDisplay.css */
 .image-container {
   background: url('../rocket.png') no-repeat center center/cover;
-  height: 120vh;
+  height: 800px;
   background-color: #f0f0f0;
   display: flex;
   justify-content: center;

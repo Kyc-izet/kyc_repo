@@ -29,6 +29,8 @@ export const Mem = () => {
           <div className="heading">Development Team</div>
           <div className="label">
             <p className="names">
+              Saurabh Srivastava
+              <br />
               Aditya Thakur
               <br />
               Yashika Mehndiratt

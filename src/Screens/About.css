@@ -589,7 +589,8 @@
 
 @media(min-width:701px){
   .bgborder{
-    background-color: rgb(0, 237, 100);
+    /* color: rgb(0, 237, 100); */
+    color: #001e2b;
     font-weight: bold;
     font-size: 1.5rem;
     padding: 1rem 2rem;

@@ -78,7 +78,7 @@ export default function Contactme() {
           </svg>
 
           <p>Fill your details & get assisted by Team KYC</p>
-          <form action="POST">
+          <form action="POST" className="flex_8 col_8" style={{gap:'1rem', width:'100%'}}>
             <input type="text" placeholder="Name"
               value={name}
               onChange={(e) => setName(e.target.value)} />
