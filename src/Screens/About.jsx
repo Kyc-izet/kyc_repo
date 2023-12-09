@@ -11,22 +11,22 @@ function About() {
       <br></br>
       <div style={{marginBottom:'2rem'}} className="frame">
         <div className="div">
-          <div className="bg rectangle" />
-          <div className="bg img" />
-          <div className="bg rectangle-2" />
-          <div className="bg rectangle-3" />
-          <div className="bg rectangle-4" />
-          <div className="bg rectangle-5" />
-          <div className="bg rectangle-6" />
-          <div className="bg rectangle-7" />
-          <div className="text-wrapper">BITS</div>
-          <div className="text-wrapper-2">MIT</div>
-          <div className="text-wrapper-3">LNMIIT</div>
-          <div className="text-wrapper-4">BMSCE</div>
-          <div className="text-wrapper-5">DAIICT</div>
-          <div className="text-wrapper-6">THAPAR</div>
-          <div className="text-wrapper-7">M.S.RAMAIAH</div>
-          <div className="text-wrapper-8">R.V.COLLEGE</div>
+          <div className="bg rectangle"> <h1>BITS</h1></div>
+          <div className="bg img"> <h1>MIT</h1></div>
+          <div className="bg rectangle-2" > <h1>LNMIIT</h1></div>
+          <div className="bg rectangle-3" > <h1>BMSCE</h1></div>
+          <div className="bg rectangle-4" > <h1>DAIICT</h1></div>
+          <div className="bg rectangle-5" > <h1>THAPAR</h1></div>
+          <div className="bg rectangle-6" > <h1>M.S.RAMAIAH</h1></div>
+          <div className="bg rectangle-7" > <h1>R.V.COLLEGE</h1></div>
+          <div className="bg rectangle"> <h1>BITS</h1></div>
+          <div className="bg img"> <h1>MIT</h1></div>
+          <div className="bg rectangle-2" > <h1>LNMIIT</h1></div>
+          <div className="bg rectangle-3" > <h1>BMSCE</h1></div>
+          <div className="bg rectangle-4" > <h1>DAIICT</h1></div>
+          <div className="bg rectangle-5" > <h1>THAPAR</h1></div>
+          <div className="bg rectangle-6" > <h1>M.S.RAMAIAH</h1></div>
+          <div className="bg rectangle-7" > <h1>R.V.COLLEGE</h1></div>
         </div>
       </div>
 
@@ -34,22 +34,22 @@ function About() {
       <br></br>
       <div style={{ marginBottom: '3rem' }} className="frame1">
         <div className="div1">
-          <div className="bg rectangle1" />
-          <div className="bg img1" />
-          <div className="bg rectangle-21" />
-          <div className="bg rectangle-31" />
-          <div className="bg rectangle-41" />
-          <div className="bg rectangle-51" />
-          <div className="bg rectangle-61" />
-          <div className="bg rectangle-71" />
-          <div className="text-wrapper1">HBTU</div>
-          <div className="text-wrapper-21">JIIT</div>
-          <div className="text-wrapper-31">SNU</div>
-          <div className="text-wrapper-41">JSS</div>
-          <div className="text-wrapper-51">IET</div>
-          <div className="text-wrapper-61">BIET</div>
-          <div className="text-wrapper-71">KNIT</div>
-          <div className="text-wrapper-81">AMITY</div>
+          <div className="bg rectangle1" ><h1>HBTU</h1></div>
+          <div className="bg img1" ><h1>JIIT</h1></div>
+          <div className="bg rectangle-21" ><h1>SNU</h1></div>
+          <div className="bg rectangle-31" ><h1>JSS</h1></div>
+          <div className="bg rectangle-41" ><h1>IET</h1></div>
+          <div className="bg rectangle-51" ><h1>BIET</h1></div>
+          <div className="bg rectangle-61" ><h1>KNIT</h1></div>
+          <div className="bg rectangle-71" ><h1>AMITY</h1></div>
+          <div className="bg rectangle1" ><h1>HBTU</h1></div>
+          <div className="bg img1" ><h1>JIIT</h1></div>
+          <div className="bg rectangle-21" ><h1>SNU</h1></div>
+          <div className="bg rectangle-31" ><h1>JSS</h1></div>
+          <div className="bg rectangle-41" ><h1>IET</h1></div>
+          <div className="bg rectangle-51" ><h1>BIET</h1></div>
+          <div className="bg rectangle-61" ><h1>KNIT</h1></div>
+          <div className="bg rectangle-71" ><h1>AMITY</h1></div>
           <br></br>
           <br></br>
         </div>

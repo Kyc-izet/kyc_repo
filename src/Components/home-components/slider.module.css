@@ -1,0 +1,56 @@
+.container {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.container>h1 {
+    color: #001e2b;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    width: max-content;
+    margin: 0 2rem;
+    border-radius: 1rem;
+}
+
+.flex {
+    display: flex;
+    /* position: absolute; */
+    margin: 1rem 0;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.image>img{
+    width: 25rem;
+    margin: 0 20px;
+    display: block;
+}
+
+@keyframes marquee {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+.animate {
+    position: absolute;
+    width: 200%;
+    animation: marquee 20s linear infinite;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.animate:hover {
+    animation-play-state: paused;
+}

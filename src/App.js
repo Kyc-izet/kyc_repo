@@ -19,6 +19,7 @@ import Form from './Components/home-components/Form';
 import Personalmentor from './Screens/Personalmentor';
 import Community from './Components/Community';
 import Bot from './Components/home-components/Bot'
+import slider from './Components/home-components/slider';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path='/personalmentor' component={Personalmentor} />
           <Route path='/form' component={Form} />
           <Route path='/Launchingsoon' component={Launch} />
+          <Route path='/aa' component={slider} />
         </Switch>
         <Footer />
       </div>
