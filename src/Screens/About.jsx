@@ -39,17 +39,18 @@ function About() {
           <div className="bg rectangle-21" ><h1>SNU</h1></div>
           <div className="bg rectangle-31" ><h1>JSS</h1></div>
           <div className="bg rectangle-41" ><h1>IET</h1></div>
-          <div className="bg rectangle-51" ><h1>BIET</h1></div>
+          <div className="bg rectangle-51" ><h1>ABES</h1></div>
           <div className="bg rectangle-61" ><h1>KNIT</h1></div>
           <div className="bg rectangle-71" ><h1>AMITY</h1></div>
+          <div className="bg rectangle-81" ><h1>BIET</h1></div>
           <div className="bg rectangle1" ><h1>HBTU</h1></div>
           <div className="bg img1" ><h1>JIIT</h1></div>
           <div className="bg rectangle-21" ><h1>SNU</h1></div>
           <div className="bg rectangle-31" ><h1>JSS</h1></div>
           <div className="bg rectangle-41" ><h1>IET</h1></div>
-          <div className="bg rectangle-51" ><h1>BIET</h1></div>
           <div className="bg rectangle-61" ><h1>KNIT</h1></div>
           <div className="bg rectangle-71" ><h1>AMITY</h1></div>
+          <div className="bg rectangle-81" ><h1>BIET</h1></div>
           <br></br>
           <br></br>
         </div>

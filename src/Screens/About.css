@@ -360,7 +360,7 @@
 }
 
 .frame1 .rectangle-51 {
-  background-image: url(../Screens/BIET.png);
+  background-image: url(../Screens/ABES.jpeg);
   height: 171px;
   left: 1835px;
   object-fit: cover;
@@ -383,6 +383,16 @@
   background-image: url(../Screens/AMITY.png);
   height: 171px;
   left: 2569px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.frame1 .rectangle-81 {
+  background-image: url(../Screens/BIET.png);
+  height: 171px;
+  left: 2937px;
   object-fit: cover;
   position: absolute;
   top: 0;
