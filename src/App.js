@@ -20,6 +20,8 @@ import Personalmentor from './Screens/Personalmentor';
 import Community from './Components/Community';
 import Bot from './Components/home-components/Bot'
 import slider from './Components/home-components/slider';
+import joinUs from './Components/home-components/joinUs';
+import joinForm from './Components/home-components/joinForm';
 
 
 function App() {
@@ -37,6 +39,8 @@ function App() {
           <Route path='/form' component={Form} />
           <Route path='/Launchingsoon' component={Launch} />
           <Route path='/aa' component={slider} />
+          <Route path='/join' component={joinUs} />
+          <Route path='/hiring' component={joinForm} />
         </Switch>
         <Footer />
       </div>

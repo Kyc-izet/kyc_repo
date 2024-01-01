@@ -25,7 +25,7 @@ export default function footer() {
               </ul>
               <ul className="flex_ col_ left-align_">
                 <li>HELPS</li>
-                <li>FAQS</li>
+                <Link to="/hiring" className="link"><li>CAREER</li></Link>
               </ul>
             </div>
             <div className="line_">

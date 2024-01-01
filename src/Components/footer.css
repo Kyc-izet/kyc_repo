@@ -28,6 +28,10 @@
     /* height:100%;  */
 }
 
+.link{
+    text-decoration: none;
+}
+
 .flex_ {
     display: flex;
     align-items: center;
