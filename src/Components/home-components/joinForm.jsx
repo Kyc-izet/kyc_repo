@@ -128,7 +128,7 @@ const Form = () => {
     };
 
     return (
-        <div>
+        <div className='bg-color'>
             <p>Internship Recruitment Form</p>
             <form onSubmit={handleSubmit} className='form-container'>
                 <div>

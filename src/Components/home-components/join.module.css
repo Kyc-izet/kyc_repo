@@ -37,6 +37,14 @@
     position: relative;
 }
 
+.card span{
+    font-size: 25px;
+}
+
+.card p{
+    color:  #001E2B;
+}
+
 .btn{
     padding: 10px 20px;
     outline: 0;
@@ -45,6 +53,7 @@
     color: white;
     border-radius: 20px;
     font-weight: bold;
+    transition: .2s ease;
 }
 .btn:hover{
     background-color: #919191;
