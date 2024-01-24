@@ -204,7 +204,7 @@ const Form = () => {
                 </div>
                 <div>
                     <label>
-                        Tech Stack:
+                        Technology you work on:
                         <input
                             type="text"
                             name="techStack"
