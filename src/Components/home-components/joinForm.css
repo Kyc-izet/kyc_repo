@@ -1,5 +1,7 @@
 
 .form-container {
+    display: flex;
+    flex-direction: column;
     max-width: 600px;
     margin: 30px auto;
     padding: 20px;
@@ -17,23 +19,14 @@ p {
     color: #001E2B;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
 label {
     margin-bottom: 10px;
     width: 100%;
 }
 
-input[type='text'],
-input[type='email'],
-input[type='tel'],
-input[type='file'] {
+.form-container input {
     width: 100%;
     padding: 8px;
-    /* margin: 15px; */
     border-radius: 3px;
     border: 1px solid #ccc;
 }
