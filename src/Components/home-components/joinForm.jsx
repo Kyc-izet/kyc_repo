@@ -169,7 +169,7 @@ const Form = () => {
                 </div>
                 <div>
                     <label>
-                        Resume:
+                        Resume/CV:
                         <input
                             type="file"
                             accept=".pdf,.doc,.docx"

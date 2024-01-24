@@ -22,11 +22,13 @@ import Bot from './Components/home-components/Bot'
 import slider from './Components/home-components/slider';
 import joinUs from './Components/home-components/joinUs';
 import joinForm from './Components/home-components/joinForm';
+// import ScrollToTop from './Components/ScrollToTop';
 
 
 function App() {
   return (
     <Router>
+      {/* <ScrollToTop /> */}
       <div>
         <Navbar />
         <Switch>

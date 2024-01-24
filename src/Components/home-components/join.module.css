@@ -3,7 +3,7 @@
 }
 
 .items{
-    background: #25d66c;
+    background: #001E2B;
     display: flex;
     flex-direction: column;
     gap: 5rem;
@@ -15,12 +15,17 @@
 .flex{
     display: flex;
     flex-wrap: wrap;
-    gap: 10rem;
+    gap: 4rem;
     justify-content: center;
 }
 .title{
+    font-size: 25px;
     display: block;
     margin-top: 30px;
+    background-color: #00BC4C;
+    padding: 5px 30px;
+    border-radius: 25px;
+    font-weight: bold;
 }
 .card{
     width: 400px;
@@ -29,7 +34,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FFFFFF;
+    background-color: #fff;
+}
+
+.card div{
+    height: 12rem;
 }
 
 .card img{
@@ -39,17 +48,21 @@
 
 .card span{
     font-size: 25px;
+    font-weight: bold;
 }
 
 .card p{
     color:  #001E2B;
+    width: 90%;
+    margin: 20px auto;
+    height: 8rem;
 }
 
 .btn{
     padding: 10px 20px;
     outline: 0;
     border: 0;
-    background-color: #333333;
+    background-color: #333;
     color: white;
     border-radius: 20px;
     font-weight: bold;
