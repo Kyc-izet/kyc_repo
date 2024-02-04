@@ -21,7 +21,15 @@ import Community from './Components/Community';
 import Bot from './Components/home-components/Bot'
 import slider from './Components/home-components/slider';
 import joinUs from './Components/home-components/joinUs';
-import joinForm from './Components/home-components/joinForm';
+import Developer from './Components/home-components/joinforms/developer';
+import Graphic from './Components/home-components/joinforms/graphic';
+import Content from './Components/home-components/joinforms/content';
+import Editor from './Components/home-components/joinforms/editor';
+import Aiml from './Components/home-components/joinforms/aiml';
+import Ambassador from './Components/home-components/joinforms/ambassador';
+import Marketing from './Components/home-components/joinforms/marketing';
+
+// import joinForm from './Components/home-components/joinForm';
 // import ScrollToTop from './Components/ScrollToTop';
 
 
@@ -41,8 +49,15 @@ function App() {
           <Route path='/form' component={Form} />
           <Route path='/Launchingsoon' component={Launch} />
           <Route path='/aa' component={slider} />
-          <Route path='/join' component={joinUs} />
-          <Route path='/hiring' component={joinForm} />
+          <Route exact path='/join' component={joinUs} />
+          <Route path='/join/dev' component={Developer} />
+          <Route path='/join/editor' component={Editor} />
+          <Route path='/join/graphic' component={Graphic} />
+          <Route path='/join/content' component={Content} />
+          <Route path='/join/aiml' component={Aiml} />
+          <Route path='/join/ambassador' component={Ambassador} />
+          <Route path='/join/marketing' component={Marketing} />
+          {/* <Route path='/hiring' component={joinForm} /> */}
         </Switch>
         <Footer />
       </div>

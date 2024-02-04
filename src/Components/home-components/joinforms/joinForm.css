@@ -12,6 +12,10 @@
     /* align-items: center; */
 }
 
+.display{
+    display: flex;
+}
+
 .bg-color>p {
     font-size: 22px;
     text-align: center;
@@ -29,7 +33,7 @@ label {
     width: 100%;
 }
 
-.form-container input {
+.input {
     width: 100%;
     padding: 8px;
     border-radius: 3px;

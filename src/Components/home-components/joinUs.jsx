@@ -23,7 +23,7 @@ function joinUs() {
                         </div>
                         <span>Developer</span>
                         <p>Proficient in web development, Work experience on both front-end and back-end using the MERN stack (MongoDB, Express.js, React.js, Node.js), incorporating OOPS and DSA principles.</p>
-                        <Link to='/hiring'><button className={css.btn}>APPLY NOW !!</button></Link>
+                        <Link to='/join/dev'><button className={css.btn}>APPLY NOW !!</button></Link>
                     </div>
                     <div className={css.card}>
                         <div>
@@ -31,7 +31,7 @@ function joinUs() {
                         </div>
                         <span>Graphics Designer</span>
                         <p>Proficient in UI/UX design with expertise in Figma, Canva, and documentation. Skilled in logo design, branding, and image editing, creating visually appealing and effective graphics for enhanced visual communication.</p>
-                        <Link to='/hiring'><button className={css.btn}>APPLY NOW !!</button></Link>
+                        <Link to='/join/graphic'><button className={css.btn}>APPLY NOW !!</button></Link>
 
                     </div>
                     <div className={css.card}>
@@ -40,7 +40,7 @@ function joinUs() {
                         </div>
                         <span>AI\ML</span>
                         <p>Hands-on experience with popular machine learning libraries, such as TensorFlow, Sklearn, matplotlib, numpy ,pandas. Worked on NLP, Gen AI, LLM, or chatbot development.</p>
-                        <Link to='/hiring'><button className={css.btn}>APPLY NOW !!</button></Link>
+                        <Link to='/join/aiml'><button className={css.btn}>APPLY NOW !!</button></Link>
 
                     </div>
                     <div className={css.card}>
@@ -49,7 +49,7 @@ function joinUs() {
                         </div>
                         <span>Video Editor</span>
                         <p>Enhance video content with captivating visual effects, graphics, and animations. Utilize advanced video editing tools like Adobe Premiere Pro, Final Cut Pro, and DaVinci Resolve for superior video quality</p>
-                        <Link to='/hiring'><button className={css.btn}>APPLY NOW !!</button></Link>
+                        <Link to='/join/editor'><button className={css.btn}>APPLY NOW !!</button></Link>
 
                     </div>
                     <div className={css.card}>
@@ -58,7 +58,7 @@ function joinUs() {
                         </div>
                         <span>Marketing</span>
                         <p>Lead the development and monitoring of promotional advertisements. Employ SEO, SMM tools, Google Analytics for effective online marketing and digital campaigns, specializing in lead generation</p>
-                        <Link to='/hiring'><button className={css.btn}>APPLY NOW !!</button></Link>
+                        <Link to='/join/marketing'><button className={css.btn}>APPLY NOW !!</button></Link>
 
                     </div>
                     <div className={css.card}>
@@ -67,7 +67,7 @@ function joinUs() {
                         </div>
                         <span>Content Writer</span>
                         <p>Expertise in creating engaging content for websites, blogs, social media, and marketing materials. Also skilled in data management—cleaning, transforming, and analyzing datasets to support business objectives</p>
-                        <Link to='/hiring'><button className={css.btn}>APPLY NOW !!</button></Link>
+                        <Link to='/join/content'><button className={css.btn}>APPLY NOW !!</button></Link>
                     </div>
                     <div className={css.card}>
                         <div style={{position: 'relative', top:'30px'}}>
@@ -75,7 +75,7 @@ function joinUs() {
                         </div>
                         <span>Campus Ambassador</span>
                         <p>The interactive guy captivates audiences with clear, concise communication, staying aware of their college community for engaging and impactful interactions</p>
-                        <Link to='/hiring'><button className={css.btn}>APPLY NOW !!</button></Link>
+                        <Link to='/join/ambassador'><button className={css.btn}>APPLY NOW !!</button></Link>
                     </div>
                 </div>
             </div>
