@@ -34,9 +34,9 @@ export default function CustomNavbar() {
             <Nav.Link as={Link} to="/Launchingsoon" className="nav-link">
               Compare Colleges
             </Nav.Link>
-            <Nav.Link as={Link} to="/about" className="nav-link">
+{/*             <Nav.Link as={Link} to="/about" className="nav-link">
               About Us
-            </Nav.Link>
+            </Nav.Link> */}
 
             <Nav.Link as={Link} to="/collegepredictor" className="nav-link">
               College Predictor
